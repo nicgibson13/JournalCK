@@ -13,6 +13,9 @@
 		7CDBD0E222D3D261009BD7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBD0E022D3D261009BD7DD /* LaunchScreen.storyboard */; };
 		7CDBD0EC22D3D269009BD7DD /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDBD0EB22D3D269009BD7DD /* CloudKit.framework */; };
 		7CDBD0F522D3D609009BD7DD /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBD0F422D3D609009BD7DD /* Entry.swift */; };
+		7CDBD0F722D3DDD6009BD7DD /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBD0F622D3DDD6009BD7DD /* EntryController.swift */; };
+		7CDBD0F922D3E887009BD7DD /* EntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBD0F822D3E887009BD7DD /* EntryTableViewController.swift */; };
+		7CDBD0FB22D3EDBE009BD7DD /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBD0FA22D3EDBE009BD7DD /* EntryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		7CDBD0E922D3D267009BD7DD /* JournalCK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JournalCK.entitlements; sourceTree = "<group>"; };
 		7CDBD0EB22D3D269009BD7DD /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		7CDBD0F422D3D609009BD7DD /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		7CDBD0F622D3DDD6009BD7DD /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		7CDBD0F822D3E887009BD7DD /* EntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTableViewController.swift; sourceTree = "<group>"; };
+		7CDBD0FA22D3EDBE009BD7DD /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,8 @@
 		7CDBD0F022D3D578009BD7DD /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7CDBD0F822D3E887009BD7DD /* EntryTableViewController.swift */,
+				7CDBD0FA22D3EDBE009BD7DD /* EntryDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -115,6 +123,7 @@
 		7CDBD0F122D3D57F009BD7DD /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7CDBD0F622D3DDD6009BD7DD /* EntryController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -213,7 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDBD0F722D3DDD6009BD7DD /* EntryController.swift in Sources */,
 				7CDBD0F522D3D609009BD7DD /* Entry.swift in Sources */,
+				7CDBD0F922D3E887009BD7DD /* EntryTableViewController.swift in Sources */,
+				7CDBD0FB22D3EDBE009BD7DD /* EntryDetailViewController.swift in Sources */,
 				7CDBD0D822D3D25F009BD7DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
